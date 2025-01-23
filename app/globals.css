@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-stone-200 text-stone-900 font-primary;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+.section {
+  @apply py-24 md:py-32 lg:py-40;
+}
+
+.line {
+  @apply overflow-hidden;
+}
+
+.word {
+  @apply translate-y-full;
+}
